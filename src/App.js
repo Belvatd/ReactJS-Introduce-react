@@ -23,7 +23,8 @@ class App extends Component {
   }
   render() {
     return (
-      <div>
+      // ===POIN 1===
+      <div> 
       <div className="App container">
         <div className="alert alert-info">
           <h3 className="text-danger">Ini project pertama React JS</h3>
@@ -33,6 +34,7 @@ class App extends Component {
         </div>
       </div>
       <br/>
+      {/* ===POIN 2=== */}
       <div className="App container col-sm-6">
         <Alert type="danger" header="Fatal Error">
           Ini adalah alert dengan tipe danger
@@ -45,6 +47,7 @@ class App extends Component {
         </Alert>
       </div>
       <br/>
+      {/*===POIN 3=== */}
       <div>
         <Media image="react.png" title="React JS">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, itaque aspernatur voluptates dolores vel consequuntur ex odio unde minima dolore fuga, magnam omnis nisi repellat at. Eum harum aliquid blanditiis.
@@ -54,6 +57,7 @@ class App extends Component {
         </Media>
       </div>
       <br/>
+      {/* ===POIN 4=== */}
       <div>
         <Alert type={this.state.type} header={this.state.header}>
           {this.state.content}
